@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Later</string>
+    <string name="tagline">Keep screenshotting. I\'ll handle it.</string>
+
+    <string name="switch_to_dark">Switch to dark mode</string>
+    <string name="switch_to_light">Switch to light mode</string>
+
+    <!-- stats line -->
+    <string name="stats_line">%1$d screenshots · %2$d to handle · %3$d skipped · %4$d private</string>
+    <string name="stats_empty">No screenshots yet. Take one of anything you\'ll \"deal with later\".</string>
+    <string name="reading_now">Reading %1$d new screenshot(s)…</string>
+    <string name="scan_busy">The AI is busy right now. Later will retry in the background.</string>
+    <string name="scan_offline">Couldn\'t reach the Later server. Will retry in the background.</string>
+
+    <!-- permission card -->
+    <string name="permission_title">Let Later see your screenshots</string>
+    <string name="permission_body">Later only looks at your Screenshots folder. Each new screenshot is read by an open-weight AI model on the Later server and never stored there. OTPs, passwords and bank screens are skipped.</string>
+    <string name="permission_button">Allow access</string>
+    <string name="permission_settings">Open settings</string>
+
+    <!-- tabs -->
+    <string name="tab_todo">To handle</string>
+    <string name="tab_done">Done</string>
+    <string name="tab_skipped">Skipped</string>
+    <string name="empty_todo">Nothing to handle. Go be lazy. 😴</string>
+    <string name="empty_done">Things you\'ve handled show up here.</string>
+    <string name="empty_skipped">Memes and private screenshots end up here.</string>
+
+    <!-- buttons -->
+    <string name="scan_now">Scan now</string>
+    <string name="preview_digest">Preview tonight\'s digest</string>
+    <string name="done">Done</string>
+    <string name="undo">Undo</string>
+    <string name="retry">Retry</string>
+    <string name="action_calendar">Add to calendar</string>
+    <string name="action_reminder">Add reminder</string>
+    <string name="action_maps">Open in maps</string>
+    <string name="action_link">Open link</string>
+    <string name="action_search">Search it</string>
+    <string name="action_copy">Copy text</string>
+    <string name="copied">Copied</string>
+    <string name="no_app">No app on this phone can do that.</string>
+
+    <!-- kinds -->
+    <string name="kind_event">Event</string>
+    <string name="kind_bill">Bill</string>
+    <string name="kind_todo">To-do</string>
+    <string name="kind_place">Place</string>
+    <string name="kind_link">Link</string>
+    <string name="kind_note">Note</string>
+    <string name="kind_skip">Skipped</string>
+    <string name="kind_private">Private</string>
+    <string name="kind_pending">Waiting</string>
+
+    <string name="pending_summary">Waiting to be read…</string>
+    <string name="failed_summary">Couldn\'t read this one.</string>
+    <string name="open_screenshot">Open screenshot</string>
+
+    <!-- digest notification -->
+    <string name="digest_channel">Evening digest</string>
+    <string name="digest_title">%1$d screenshots today, sorted</string>
+    <string name="digest_none">No new screenshots to handle today.</string>
+    <string name="digest_tap">Tap to handle them in one go.</string>
+    <string name="digest_sent">Digest sent. Check your notifications.</string>
+    <string name="digest_need_permission">Allow notifications to get the evening digest.</string>
+</resources>

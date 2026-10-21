@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#5B4BD6</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="primary_container">#E6E1FF</color>
+    <color name="on_primary_container">#1C1352</color>
+    <color name="background">#F6F5FB</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="text_primary">#1B1A22</color>
+    <color name="text_secondary">#65636F</color>
+    <color name="divider">#E3E1EC</color>
+
+    <!-- one colour per kind of screenshot -->
+    <color name="kind_event">#2F6FE4</color>
+    <color name="kind_bill">#C77700</color>
+    <color name="kind_todo">#1E8E4E</color>
+    <color name="kind_place">#D2403A</color>
+    <color name="kind_link">#7A4FD3</color>
+    <color name="kind_note">#5E6470</color>
+    <color name="kind_muted">#9A98A6</color>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#BDB3FF</color>
+    <color name="on_primary">#211563</color>
+    <color name="primary_container">#2E2670</color>
+    <color name="on_primary_container">#E6E1FF</color>
+    <color name="background">#121118</color>
+    <color name="surface">#1D1B25</color>
+    <color name="text_primary">#E7E5F0</color>
+    <color name="text_secondary">#A9A6B6</color>
+    <color name="divider">#2E2C38</color>
+
+    <color name="kind_event">#8DB4FF</color>
+    <color name="kind_bill">#FFC266</color>
+    <color name="kind_todo">#7FD8A1</color>
+    <color name="kind_place">#FF9C96</color>
+    <color name="kind_link">#C6AEFF</color>
+    <color name="kind_note">#B8BDC8</color>
+    <color name="kind_muted">#77758A</color>
+</resources>
