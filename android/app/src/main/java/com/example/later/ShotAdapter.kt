@@ -52,7 +52,16 @@ class ShotAdapter(
             val context = itemView.context
             val uri = Uri.parse(shot.uri)
 
-            thumb.setImageBitmap(Screenshots.thumbnail(context, uri, 160))
+            // Never show a preview of a private screenshot (OTP, bank screen) - not even small
+            if (shot.kind == Kind.PRIVATE) {
+                thumb.scaleType = ImageView.ScaleType.CENTER
+                thumb.setImageResource(R.drawable.ic_kind_private)
+                thumb.setColorFilter(ContextCompat.getColor(context, R.color.kind_muted))
+            } else {
+                thumb.scaleType = ImageView.ScaleType.CENTER_CROP
+                thumb.clearColorFilter()
+                thumb.setImageBitmap(Screenshots.thumbnail(context, uri, 160))
+            }
             thumb.setOnClickListener {
                 try {
                     context.startActivity(
